@@ -1,19 +1,22 @@
 {
   "images" : [
     {
-      "filename" : "Bilibili-Wallpapers-3 (1).jpg",
+      "filename" : "Bilibili-Wallpapers.jpg",
       "idiom" : "tv",
       "scale" : "1x"
     },
     {
+      "filename" : "Bilibili-Wallpapers3840.jpg",
       "idiom" : "tv",
       "scale" : "2x"
     },
     {
+      "filename" : "Bilibili-Wallpapers 1.jpg",
       "idiom" : "tv-marketing",
       "scale" : "1x"
     },
     {
+      "filename" : "Bilibili-Wallpapers3840 1.jpg",
       "idiom" : "tv-marketing",
       "scale" : "2x"
     }

@@ -1,11 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "Bilibili-Logo400.png",
       "idiom" : "tv",
       "scale" : "1x"
     },
     {
-      "filename" : "3.jpg",
+      "filename" : "Bilibili-Logo.png",
       "idiom" : "tv",
       "scale" : "2x"
     }
