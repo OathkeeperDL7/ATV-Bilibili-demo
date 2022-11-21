@@ -381,10 +381,11 @@ struct VideoDetail: Codable, Hashable {
         let owner: VideoOwner
         let pages: [VideoPage]?
         let dynamic: String?
+        let bvid: String?
         let duration: Int
         let pubdate: Int?
         let ugc_season: UgcSeason?
-
+        let redirect_url: URL?
         let stat: Stat
         struct Stat: Codable, Hashable {
             let favorite: Int
@@ -435,6 +436,7 @@ struct VideoDetail: Codable, Hashable {
 
     struct Owner: Hashable, Codable {
         let following: Bool
+        let follower: Int?
     }
 
     let View: Info
@@ -582,7 +584,7 @@ struct VideoPlayURLInfo: Codable {
         let duration: Int
         let minBufferTime: CGFloat
         let video: [DashMediaInfo]
-        let audio: [DashMediaInfo]
+        let audio: [DashMediaInfo]?
         let dolby: DolbyInfo?
         let flac: FlacInfo?
         struct DashMediaInfo: Codable, Hashable {
